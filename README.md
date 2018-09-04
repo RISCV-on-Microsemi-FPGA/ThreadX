@@ -1,7 +1,7 @@
 # ThreadX
 ThreadX port for Mi-V CPUs
 
-This repository contains the simple SoftConsole project demonstrating ThreadX on Mi-V processor.
+This repository contains a simple SoftConsole project demonstrating ThreadX on a Mi-V processor.
 
 ### Test Platform and FPGA design:
 This project is tested on following hardware platforms:
@@ -22,7 +22,7 @@ Please read ./x-ware_platform/readme_threadx.txt to know how to use these projec
 The application creates several threads thread_0_entry and thread_1_entry etc and demonstrates the usage of IPC such as queue, mutex etc.
 
 ### ThreadX project configurations:
-The Demo project related configurations can be done in .x-ware_platform/RISCV_Demo_Threadx/demo_threadx.c
+The Demo project related configurations can be done in ./x-ware_platform/RISCV_Demo_Threadx/demo_threadx.c
 
 The RISC-V creative board design uses 66Mhz processor clock. The PolarFire Eval Kit design uses 50Mhz processor clock. The SmartFusion2 Adv. Development kit design uses 83Mhz processor clock.
 
